@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "bootstrap@5.2.2",
+      "destination": "assets/",
+      "files": [
+        "css/bootstrap.css",
+        "js/bootstrap.bundle.js"
+      ]
+    },
+    {
+      "library": "jquery@3.6.1",
+      "destination": "assets/js",
+      "files": [
+        "jquery.js"
+      ]
+    },
+    {
+      "library": "jqueryui@1.13.2",
+      "destination": "assets/js"
+    },
+    {
+      "library": "aos@2.3.4",
+      "destination": "assets/css/",
+      "files": [
+        "aos.js",
+        "aos.css"
+      ]
+    }
+  ]
+}
